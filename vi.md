@@ -32,7 +32,8 @@ Most of these commands/features can be turned off by prefixing them with `no`.
 # Tricks
 
 * Use tabs - start vi with `-p`
- 
+  See: [http://www.linux.com/learn/tutorials/442422-vim-tips-using-tabs]:wq
+  See: [http://vim.wikia.com/wiki/Using_tab_pages]
 
 # Want more?
 
