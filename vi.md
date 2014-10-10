@@ -4,6 +4,8 @@ Most of these commands/features can be turned off by prefixing them with `no`.
 
 # Configurations
 
+Use Vundle: https://github.com/gmarik/Vundle.vim
+
 ## Must haves (in vimrc)
 * `set nocompatible` : Stop trying to be compatible with vi.  This breaks various useful features
 * `set bs=2` : Smarter backspace behaviour
@@ -32,7 +34,7 @@ Most of these commands/features can be turned off by prefixing them with `no`.
 # Tricks
 
 * Use tabs - start vi with `-p`
-  See: [http://www.linux.com/learn/tutorials/442422-vim-tips-using-tabs]:wq
+  See: [http://www.linux.com/learn/tutorials/442422-vim-tips-using-tabs]
   See: [http://vim.wikia.com/wiki/Using_tab_pages]
 
 # Want more?
