@@ -4,7 +4,8 @@ Most of these commands/features can be turned off by prefixing them with `no`.
 
 # Configurations
 
-Use Vundle: https://github.com/gmarik/Vundle.vim
+To configure this custom vimrc and Vundle on a host, run:
+`bash < <(curl -s -L https://github.com/tdeckers/guides/raw/master/vi-install.sh)`
 
 ## Set when needed
 
