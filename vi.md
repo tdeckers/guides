@@ -10,6 +10,7 @@ Use Vundle: https://github.com/gmarik/Vundle.vim
 
 * `set columns=80` : set window column width to 80 (or something else)
 * `set number` : set line numbers
+* `set paste` : paste content without auto inserting stuff (turn off after pasting)
 
 # Tricks
 
