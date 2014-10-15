@@ -1,10 +1,9 @@
-set nocompatible 	" don't try to be compatible with vi 
+set nocompatible 	" don't try to be compatible with vi
 set bs=2		" Smarter backspace behaviour
 "set expandtab		" Spaces are better than tab chars
 "set smarttab		
 "set shiftwidth=3        " number of spaces for (auto)indent
 "set softtabstop=3       
-set background=dark	" Use colors wisely
 set wildmenu		" tab completion for commands
 set wildmode=list:longest,full
 set mouse=a		" enable mouse (yay!)
@@ -13,10 +12,11 @@ set ignorecase		" ignore case when searching
 set incsearch		" incremental search
 set hlsearch		" highlight search results
 
-" undo
-set hidden		" Hide buffer instead of closing to keep undo history
-set undodir=~/.undodir
-set undofile
+" visual
+"set number
+set t_Co=256
+set background=dark
+" colorscheme wombat256mod
 
 " maps
 map <F2> :tabn<CR>
@@ -53,6 +53,14 @@ Plugin 'honza/vim-snippets'
 
 call vundle#end()
 filetype plugin indent on  " required for Vundle
+
+" undo
+set hidden		" Hide buffer instead of closing to keep undo history
+set undodir=~/.undodir
+set undofile
+
+" to enable airline
+set laststatus=2
 
 " Auto format go files when writing to file.
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
