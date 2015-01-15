@@ -51,6 +51,8 @@ Plugin 'MarcWeber/vim-addon-mw-utils'	" required
 Plugin 'tomtom/tlib_vim'		" required
 Plugin 'honza/vim-snippets'
 
+Plugin 'tpope/vim-fugitive'		" Git plugin
+
 call vundle#end()
 filetype plugin indent on  " required for Vundle
 
