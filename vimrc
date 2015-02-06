@@ -45,6 +45,7 @@ Plugin 'fatih/vim-go'		" Golang support
 " disabling instant-markdown for now.  Requires node.js et al.
 "Plugin 'instant-markdown.vim'	" Markdown previews (in browser)
 Plugin 'Markdown'		" Markdown syntax highlighting
+Plugin 'rodjek/vim-puppet' 	" Puppet plugin
 
 " snipMate: insert completion for code snippets
 Plugin 'MarcWeber/vim-addon-mw-utils'	" required
