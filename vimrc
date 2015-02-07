@@ -65,6 +65,9 @@ set undofile
 " to enable airline
 set laststatus=2
 
+" Filetype specific settings.
+autocmd Filetype python setlocal shiftwidth=4 tabstop=4
+
 " Auto format go files when writing to file.
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
 
