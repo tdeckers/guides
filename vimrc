@@ -66,7 +66,8 @@ set undofile
 set laststatus=2
 
 " Filetype specific settings.
-autocmd Filetype python setlocal shiftwidth=4 tabstop=4
+autocmd Filetype python setlocal ts=4 sts=4 sw=4 expandtab
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 " Auto format go files when writing to file.
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
