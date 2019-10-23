@@ -1,5 +1,7 @@
 # VI(M) tips and tricks
 
+Update (10/2019): consider just using https://github.com/amix/vimrc. Easier ;-)
+
 Most of these commands/features can be turned off by prefixing them with `no`.
 
 # Configurations
